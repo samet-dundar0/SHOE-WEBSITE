@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*NAVBAR*/
+
+header{
+  background-color: black;
+  position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.navbar{
+   display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0px;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+.navbar-links{
+display: flex;
+column-gap: 20px;
+
+}
+
+
+.navbar-links a i{
+    font-size: 20px;
+    transition: all .5s ease-in-out;
+}
+
+
+.navbar-links a i:hover{
+    color: red;
+    transform: scale(1.2);
+}
+
+/*CONTENT*/
+
+#content{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    padding: 200px 0 0 0;
+    column-gap: 20px;
+}
+
+.shoe-about{
+    flex-basis: 50%;
+    padding-left: 10%;
+    align-items: center;
+}
+
+.shoe-about h1{
+    font-size: 80px;
+    color: orange;
+}
+
+.shoe-about .price{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    column-gap: 10px;
+    font-size: 20px;
+}
+
+.shoe-about .price h5{
+    text-decoration: line-through;
+}
+
+.shoe-about .buttons{
+    display: flex;
+    margin-top: 40px;
+    column-gap: 20px;
+}
+
+.shoe-about .buttons a button{
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: rgb(185, 144, 70);
+    transition: all .5s ease-in-out;
+    flex-wrap: wrap;
+}
+
+.shoe-about .buttons a button:hover{
+   cursor: pointer;
+    background-color: red;
+    transform: translateY(-10px);
+}
+
+
+.shoe-img{
+    flex-basis: 50%;
+    background-color: red;
+    margin-top: -1000px;
+    position: relative;
+}
+
+.nike{
+    transform: rotate(50deg);
+    font-size: 250px;
+    position: absolute;
+    color: orange;
+   bottom: 300px;
+   left: 10px;
+}
+
+.big-img{
+    
+    margin-top: 1000px;
+    
+}
+
+.big-img img{
+    transition: all .5s ease-in-out;
+    width: 90%;
+    transform: rotate(-20deg);
+}
+
+.big-img img:hover{
+    cursor: pointer;
+    transform: rotate(0);
+}
+
+.small-img{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.small-img .img{
+    
+    
+    flex-basis: 20%;
+    
+}
+
+.small-img .img img{
+    transition: all .5s ease-in-out;
+     transform: rotate(-20deg);
+      width: 90%;
+}
+
+.small-img .img img:hover{
+    cursor: pointer;
+    transform: rotate(0);
+}
+
+.color1{
+    background-color:blue ;
+}
+
+.color2{
+    background-color:green ;
+}
+
+.color3{
+    background-color:aqua ;
+}
+
+.color4{
+    background-color:rgb(181, 7, 7);
+}
